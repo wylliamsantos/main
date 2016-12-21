@@ -48,7 +48,7 @@ jspm_packages
 .yarn-integrity
 
 # MongoDB
-mongodb/data/
-mongodb/data/log/mongod.log
-mongodb/data/**/*.log
-/mongodb/data/**/*.log
+data/
+data/log/mongod.log
+data/**/*.log
+data/**/*.log
