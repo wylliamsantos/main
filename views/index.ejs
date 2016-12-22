@@ -25,10 +25,12 @@
 	    	<tr>
 	    		<th>Nome</th>
 	    		<th>Telefone</th>
+	    		<th></th>
 	    	</tr>
 	    	<tr ng-repeat='contato in contatos'>
 	    		<td>{{contato.nome}}</td>
 	    		<td>{{contato.telefone}}</td>
+	    		<td><button class='btn btn-primary' ng-click='deletarContato(contato._id)'>Deletar</button></td>
 	    	</tr>
 	    </table>
 
